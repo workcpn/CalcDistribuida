@@ -16,7 +16,7 @@ end
  
 # inicia o serviço, informando endereço e objeto disponível
 DRb.start_service "druby://localhost:8783", Division.new
-puts "Rodando o servidor de subitração no '#{DRb.uri}'"
+puts "Rodando o servidor de divisao no '#{DRb.uri}'"
  
 # mantém o serviço rodando, não deixa o DRb fechar
 DRb.thread.join
