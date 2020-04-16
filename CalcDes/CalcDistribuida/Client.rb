@@ -1,4 +1,4 @@
-# iniciamos a biblioteca
+# importando biblioteca
 require 'drb'
  
 # guardamos na variável o objeto disponível no servidor
